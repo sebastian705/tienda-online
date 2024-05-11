@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 0 2rem;
+    width: 100%;
+    background-color: rgb(56, 219, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
