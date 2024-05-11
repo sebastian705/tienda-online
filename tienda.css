@@ -1,12 +1,13 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgb(228, 228, 228);
 }
 
 header {
     padding: 0 2rem;
     width: 100%;
-    background-color: rgb(56, 219, 83);
+    background-color: rgb(49, 49, 49);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,4 +26,8 @@ nav a {
     border: 1px solid white;
     padding: .5rem 1rem;
     border-radius: 1rem;
+}
+
+h2 {
+    color: white;
 }
